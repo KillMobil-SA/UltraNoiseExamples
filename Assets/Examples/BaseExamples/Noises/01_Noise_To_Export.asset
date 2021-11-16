@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8589005445274318795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 0, y: 0}
+  ports:
+    keys: []
+    values: []
+  commentBox: 'Use the "Node Generator" for a Noise Source.
+
+
+    From the Noise
+    Settings you can control various aspects of the output.
+
+
+'
+--- !u!114 &-6666805798054433066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0efac3304690548881b019e836aa62, type: 3}
+  m_Name: Node Generator
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 200, y: 8}
+  ports:
+    keys:
+    - output
+    values:
+    - _fieldName: output
+      _node: {fileID: -6666805798054433066}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -1390588663812089204}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0.031086298
+      max: 0.7321313
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  attributes:
+    seed: 713920
+    noiseType: 4
+    frequency: 4
+    amplitude: 1
+    lacunarity: 1
+    octaves: 8
+    offset: {x: 0, y: 0, z: 0}
+--- !u!114 &-4143551380010137870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 8, y: 392}
+  ports:
+    keys: []
+    values: []
+  commentBox: "Seed: Set Varioation of the noise.\n\nNoise Type: The Type of Noise
+    the generator will produce.\n\nFrequency: Define the Range of the noise.\n\nAmplitude:
+    the strength of the noise (Usually se to 1) \n\nOctaves: Amount of details in
+    the noise\n\nOffset: Move the noise center"
+--- !u!114 &-1390588663812089204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10860912d812daf4ba9a34501edbf366, type: 3}
+  m_Name: BE_BasicExport
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1032, y: 72}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: -1390588663812089204}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -6666805798054433066}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -1390588663812089204}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0.031086298
+      max: 0.7321313
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  input: {fileID: 0}
+  nodeTitle: BE_BasicExport
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac0e6c3739716634bbbce7e890c35354, type: 3}
+  m_Name: 01_Noise_To_Export
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6666805798054433066}
+  - {fileID: -1390588663812089204}
+  - {fileID: -8589005445274318795}
+  - {fileID: 5665300968901744571}
+  - {fileID: 794992361630078573}
+  - {fileID: -4143551380010137870}
+  globalZoom: 1024
+--- !u!114 &794992361630078573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -120, y: -376}
+  ports:
+    keys: []
+    values: []
+  commentBox: "Hello Welcome to Ultra Noise's Node Editor\n\nYou can access the Node
+    Menu with left click.\n\nAll Nodes have a preview area that you can toglle on/off.
+    \n\nUsually the noise updates automaticly but if not tou can draw it manually."
+--- !u!114 &5665300968901744571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 792, y: 56}
+  ports:
+    keys: []
+    values: []
+  commentBox: 'To use generated results of any node in your project use the Export
+    Node.
+
+
+    The Export Node works as an end point of your nose trail and make
+    the result available for various usage tools.
+
+
+    Rename the node is order
+    to  find the node more easily '

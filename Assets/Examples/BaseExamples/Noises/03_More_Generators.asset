@@ -1,0 +1,448 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8143411776032838583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0efac3304690548881b019e836aa62, type: 3}
+  m_Name: Node Generator
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -136, y: -248}
+  ports:
+    keys:
+    - output
+    values:
+    - _fieldName: output
+      _node: {fileID: -8143411776032838583}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0.22712478
+      max: 0.82312775
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  attributes:
+    seed: 753518
+    noiseType: 2
+    frequency: 5
+    amplitude: 1
+    lacunarity: 1
+    octaves: 4
+    offset: {x: 0, y: 0, z: 0}
+--- !u!114 &-6849014005423191117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2504, y: -200}
+  ports:
+    keys: []
+    values: []
+  commentBox: 'The Texture node can use data from a texrture.
+
+    However the Texture
+    needs to have the read write option enabled.
+
+
+
+    The External node ba load
+    in Noises created i other graphs.'
+--- !u!114 &-5115465452765417407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -450.06607, y: -198.80203}
+  ports:
+    keys: []
+    values: []
+  commentBox: 'There are a number of Nodes that emmit an output signal like the Node
+    Generator.
+
+
+    These nodes can be used alone but they can also be combined
+    with other Generators to further craft your final result.'
+--- !u!114 &-1601231498239915260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 248, y: -216}
+  ports:
+    keys: []
+    values: []
+  commentBox: Black and White Simply output a very steady output signal.
+--- !u!114 &-1349998533027449994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d975450be4b74b4e83a03637a75316b, type: 3}
+  m_Name: Texture
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2712, y: -200}
+  ports:
+    keys:
+    - output
+    values:
+    - _fieldName: output
+      _node: {fileID: -1349998533027449994}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 1
+      max: 0
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  texture2d: {fileID: 2800000, guid: a78bffbeb81b48ae9ec71ad7969613e5, type: 3}
+  scale: 0.081
+  offSet: {x: 0, y: 0}
+  textureRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1024
+    height: 1024
+--- !u!114 &-646095489687752411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d248cb3f39d5454d960d953a915e8e5, type: 3}
+  m_Name: White
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 808, y: -216}
+  ports:
+    keys:
+    - output
+    values:
+    - _fieldName: output
+      _node: {fileID: -646095489687752411}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 1
+      max: 1
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac0e6c3739716634bbbce7e890c35354, type: 3}
+  m_Name: 03_More_Generators
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -8143411776032838583}
+  - {fileID: 2101637127502710527}
+  - {fileID: -646095489687752411}
+  - {fileID: 4063639900070163118}
+  - {fileID: 1007998323764229397}
+  - {fileID: -5115465452765417407}
+  - {fileID: 1856298931339176877}
+  - {fileID: -1349998533027449994}
+  - {fileID: -1601231498239915260}
+  - {fileID: 3557839408855805888}
+  - {fileID: 4470316055608980016}
+  - {fileID: -6849014005423191117}
+  globalZoom: 1024
+--- !u!114 &1007998323764229397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 608518c0442c80c4ba50a69bbdf02c55, type: 3}
+  m_Name: Circle
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1768, y: -216}
+  ports:
+    keys:
+    - output
+    values:
+    - _fieldName: output
+      _node: {fileID: 1007998323764229397}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0
+      max: 0.9888645
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  center: {x: 512, y: 512, z: 0}
+  radius: 512
+  hardEdges: 0
+  heightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0.001953125
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 512
+      value: 1
+      inSlope: 0.001953125
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1856298931339176877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a1ff3f47fc813049b5f2d3bf8544535, type: 3}
+  m_Name: External
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3032, y: -200}
+  ports:
+    keys:
+    - output
+    values:
+    - _fieldName: output
+      _node: {fileID: 1856298931339176877}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0.44386882
+      max: 0.778863
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  node: {fileID: -1390588663812089204, guid: 810b2505f9f0843d1aedcf364149bd28, type: 2}
+--- !u!114 &2101637127502710527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013b0c34c18a69145850da4efd7ad540, type: 3}
+  m_Name: Black
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 488, y: -216}
+  ports:
+    keys:
+    - output
+    values:
+    - _fieldName: output
+      _node: {fileID: 2101637127502710527}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0
+      max: 0
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &3557839408855805888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1224, y: -216}
+  ports:
+    keys: []
+    values: []
+  commentBox: 'This Shape Nodes output range from 0-1.
+
+
+    Their cordinates can
+    be adjuste to cover the required space needed. '
+--- !u!114 &4063639900070163118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3b340d214492a49a92568738d06f10, type: 3}
+  m_Name: Gradient
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1448, y: -216}
+  ports:
+    keys:
+    - output
+    values:
+    - _fieldName: output
+      _node: {fileID: 4063639900070163118}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0
+      max: 1
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  lineType: 0
+  start: 0
+  end: 1024
+--- !u!114 &4470316055608980016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae57daa299cc458ea72bbabd7ca68cb7, type: 3}
+  m_Name: Triangle
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2088, y: -216}
+  ports:
+    keys:
+    - output
+    values:
+    - _fieldName: output
+      _node: {fileID: 4470316055608980016}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0
+      max: 1
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  p1: {x: 0, y: 0}
+  p2: {x: 0, y: 1024}
+  p3: {x: 1024, y: 512}

@@ -1,0 +1,3 @@
+[submodule "Assets/UltraNoiseNodeGraph"]
+	path = Assets/UltraNoiseNodeGraph
+	url = https://github.com/KillMobil-SA/UltraNoiseNodeGraph

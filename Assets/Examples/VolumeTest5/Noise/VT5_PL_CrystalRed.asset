@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 573d95cd014b4f238fa3e902a1303a8c, type: 3}
+  m_Name: VT5_PL_CrystalRed
+  m_EditorClassIdentifier: 
+  exportNode: {fileID: 4142011155874253628, guid: d450e15c6a09a9346b445d91162e14d5, type: 2}
+  scale:
+    placementValueRange:
+      axisType: 0
+      rangeType: 1
+      minRange: 10
+      range: 30
+      minRangeV3: {x: 0, y: 0, z: 0}
+      rangeV3: {x: 0, y: 0, z: 0}
+      roundAmount: 10
+      useExternalNoise: 0
+      externalSource: {fileID: 0}
+    placementRandomizedRange:
+      axisType: 0
+      rangeType: 1
+      minRange: 1
+      range: 1
+      minRangeV3: {x: 0, y: 0, z: 0}
+      rangeV3: {x: 0, y: 0, z: 0}
+      roundAmount: 0
+      useExternalNoise: 0
+      externalSource: {fileID: 0}
+      seed: 113
+      usePosAsRandomSeed: 0
+    size: 0.2
+  placementScaleSettings:
+    placementValueRange:
+      axisType: 0
+      rangeType: 1
+      minRange: 10
+      range: 30
+      minRangeV3: {x: 0, y: 0, z: 0}
+      rangeV3: {x: 0, y: 0, z: 0}
+      roundAmount: 10
+      useExternalNoise: 0
+      externalSource: {fileID: 0}
+    placementRandomizedRange:
+      axisType: 0
+      rangeType: 1
+      minRange: 1
+      range: 1
+      minRangeV3: {x: 0, y: 0, z: 0}
+      rangeV3: {x: 0, y: 0, z: 0}
+      roundAmount: 0
+      useExternalNoise: 0
+      externalSource: {fileID: 0}
+      seed: 113
+      usePosAsRandomSeed: 0
+    size: 0.2
+  rotation:
+    placementValueRange:
+      axisType: 1
+      rangeType: 0
+      minRange: 0
+      range: 0
+      minRangeV3: {x: -0, y: -0, z: -0}
+      rangeV3: {x: 0, y: 0, z: 0}
+      roundAmount: 0
+      useExternalNoise: 0
+      externalSource: {fileID: 0}
+    placementRandomizedRange:
+      axisType: 1
+      rangeType: 0
+      minRange: 0
+      range: 0
+      minRangeV3: {x: -360, y: -360, z: -360}
+      rangeV3: {x: 360, y: 360, z: 360}
+      roundAmount: 0
+      useExternalNoise: 0
+      externalSource: {fileID: 0}
+      seed: 1316
+      usePosAsRandomSeed: 0
+  placementRotationSettings:
+    placementValueRange:
+      axisType: 1
+      rangeType: 0
+      minRange: 0
+      range: 0
+      minRangeV3: {x: -0, y: -0, z: -0}
+      rangeV3: {x: 0, y: 0, z: 0}
+      roundAmount: 0
+      useExternalNoise: 0
+      externalSource: {fileID: 0}
+    placementRandomizedRange:
+      axisType: 1
+      rangeType: 0
+      minRange: 0
+      range: 0
+      minRangeV3: {x: -360, y: -360, z: -360}
+      rangeV3: {x: 360, y: 360, z: 360}
+      roundAmount: 0
+      useExternalNoise: 0
+      externalSource: {fileID: 0}
+      seed: 1316
+      usePosAsRandomSeed: 0
+  position:
+    placementValueRange:
+      axisType: 1
+      rangeType: 0
+      minRange: 0
+      range: 0
+      minRangeV3: {x: -0, y: -0, z: -0}
+      rangeV3: {x: 0, y: 0, z: 0}
+      roundAmount: 0
+      useExternalNoise: 0
+      externalSource: {fileID: 0}
+    placementRandomizedRange:
+      axisType: 1
+      rangeType: 0
+      minRange: 0
+      range: 0
+      minRangeV3: {x: -0, y: -0, z: -0}
+      rangeV3: {x: 0, y: 0, z: 0}
+      roundAmount: 0
+      useExternalNoise: 0
+      externalSource: {fileID: 0}
+      seed: 3675
+      usePosAsRandomSeed: 0
+    heightPosType: 1
+    rayCastHeightPos:
+      tagCheck: Ground
+      layerMask:
+        serializedVersion: 2
+        m_Bits: 0
+      showDebug: 0
+  placementPositionsSettings:
+    placementValueRange:
+      axisType: 1
+      rangeType: 0
+      minRange: 0
+      range: 0
+      minRangeV3: {x: -0, y: -0, z: -0}
+      rangeV3: {x: 0, y: 0, z: 0}
+      roundAmount: 0
+      useExternalNoise: 0
+      externalSource: {fileID: 0}
+    placementRandomizedRange:
+      axisType: 1
+      rangeType: 0
+      minRange: 0
+      range: 0
+      minRangeV3: {x: -0, y: -0, z: -0}
+      rangeV3: {x: 0, y: 0, z: 0}
+      roundAmount: 0
+      useExternalNoise: 0
+      externalSource: {fileID: 0}
+      seed: 3675
+      usePosAsRandomSeed: 0
+    heightPosType: 1
+    rayCastHeightPos:
+      tagCheck: Ground
+      layerMask:
+        serializedVersion: 2
+        m_Bits: 0
+      showDebug: 0
+  livePreviewColor: {r: 0, g: 1, b: 0, a: 1}
+  livePreviewSizeMultiplier: 1
+  placementObjectType: 1
+  items:
+  - {fileID: 5139062352438366654, guid: 3a83a16de2e037346bff2e88ad5418af, type: 3}
+  - {fileID: 5139062352438366654, guid: 3a83a16de2e037346bff2e88ad5418af, type: 3}
+  - {fileID: 5139062352438366654, guid: da0152d2045a5454992a5360e17b940f, type: 3}
+  - {fileID: 5139062352438366654, guid: 3a83a16de2e037346bff2e88ad5418af, type: 3}
+  - {fileID: 5139062352438366654, guid: 3a83a16de2e037346bff2e88ad5418af, type: 3}

@@ -1,0 +1,694 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8455542239732120178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea95bccf1ca23c4cb206992d0b37f52, type: 3}
+  m_Name: Curve
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 920, y: 808}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: -8455542239732120178}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 291691614288172094}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -8455542239732120178}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0
+      max: 0.955955
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  input: {fileID: 0}
+  resultCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.4984011
+      value: 0.4976017
+      inSlope: -7.633565
+      outSlope: -7.633565
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.035342805
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &-6882177796758405210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1272, y: -392}
+  ports:
+    keys: []
+    values: []
+  commentBox: The One Minus Node simply inverts the input signal.
+--- !u!114 &-6464494534936688364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0efac3304690548881b019e836aa62, type: 3}
+  m_Name: Node Generator
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -280, y: -264}
+  ports:
+    keys:
+    - output
+    values:
+    - _fieldName: output
+      _node: {fileID: -6464494534936688364}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 291691614288172094}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0.098452866
+      max: 0.86724705
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  attributes:
+    seed: 887313
+    noiseType: 2
+    frequency: 5
+    amplitude: 1
+    lacunarity: 2
+    octaves: 4
+    offset: {x: 0, y: 0, z: 0}
+--- !u!114 &-4562327768190166481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03f5d6a67306d645bda819869d6b6af, type: 3}
+  m_Name: Step
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2088, y: -248}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: -4562327768190166481}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 6772075828012383886}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -4562327768190166481}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 7406087342556408512}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0
+      max: 1
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  input: {fileID: 0}
+  steps: 6
+--- !u!114 &-3033326997734014013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1896, y: -392}
+  ports:
+    keys: []
+    values: []
+  commentBox: 'The Step Node Rounds the input range to the desired Amount. '
+--- !u!114 &-1294295223184938889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 760, y: -392}
+  ports:
+    keys: []
+    values: []
+  commentBox: 'The Curve Node allows you to  adjust the "flow" of the input signal.
+
+
+    It
+    can produce very interesting results.
+
+
+    Also you can use the presets option
+    to save you favourites.'
+--- !u!114 &-83414804034551101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea95bccf1ca23c4cb206992d0b37f52, type: 3}
+  m_Name: Curve
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 920, y: 280}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: -83414804034551101}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 291691614288172094}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -83414804034551101}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0
+      max: 0.9999982
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  input: {fileID: 0}
+  resultCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: -0.024585068
+      inSlope: 0.21151388
+      outSlope: 0.21151388
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.323741
+    - serializedVersion: 3
+      time: 0.4982079
+      value: 1
+      inSlope: 3.484311
+      outSlope: -5.056501
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.050359745
+      outWeight: 0.042857166
+    - serializedVersion: 3
+      time: 1
+      value: -0.024585068
+      inSlope: -0.2908315
+      outSlope: -0.2908315
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.32142866
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac0e6c3739716634bbbce7e890c35354, type: 3}
+  m_Name: 02_Craft_The_Noise
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6464494534936688364}
+  - {fileID: 291691614288172094}
+  - {fileID: 2505017691924575824}
+  - {fileID: 6772075828012383886}
+  - {fileID: -4562327768190166481}
+  - {fileID: 6108268555883319039}
+  - {fileID: 7406087342556408512}
+  - {fileID: 8278843005408150973}
+  - {fileID: 2922673126545426450}
+  - {fileID: -1294295223184938889}
+  - {fileID: -83414804034551101}
+  - {fileID: -8455542239732120178}
+  - {fileID: -6882177796758405210}
+  - {fileID: -3033326997734014013}
+  globalZoom: 1024
+--- !u!114 &291691614288172094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b9ecd2ce9cc5574c9541d312dbed3aa, type: 3}
+  m_Name: Clamp
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 312, y: -264}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 291691614288172094}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -6464494534936688364}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 291691614288172094}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 2505017691924575824}
+        reroutePoints: []
+      - fieldName: input
+        node: {fileID: -83414804034551101}
+        reroutePoints: []
+      - fieldName: input
+        node: {fileID: -8455542239732120178}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0
+      max: 0.93449414
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  input: {fileID: 0}
+  limit: {x: 0.4, y: 0.9}
+  smoothClampValue: 1
+--- !u!114 &2505017691924575824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea95bccf1ca23c4cb206992d0b37f52, type: 3}
+  m_Name: Curve
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 920, y: -248}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 2505017691924575824}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 291691614288172094}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 2505017691924575824}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6772075828012383886}
+        reroutePoints: []
+      - fieldName: input
+        node: {fileID: 6108268555883319039}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0
+      max: 0.995709
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  input: {fileID: 0}
+  resultCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &2922673126545426450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 136, y: -376}
+  ports:
+    keys: []
+    values: []
+  commentBox: 'The Clamp Node can limits the range of the input signal.
+
+
+    By
+    enabling the Smooth clamp value the output will use the disired range but use
+    the full range of 0-1.'
+--- !u!114 &6108268555883319039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58465e6a50ec4d678206046b4bc23cad, type: 3}
+  m_Name: Cos
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1816, y: 632}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 6108268555883319039}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 2505017691924575824}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 6108268555883319039}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0
+      max: 1
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  input: {fileID: 0}
+  strenght: 4
+--- !u!114 &6772075828012383886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcbb6fd6a48b4074fbfee8e56d02f201, type: 3}
+  m_Name: One Minus
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1464, y: -248}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 6772075828012383886}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 2505017691924575824}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 6772075828012383886}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -4562327768190166481}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0.004290998
+      max: 1
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  input: {fileID: 0}
+--- !u!114 &7406087342556408512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 242dfc1c0d9a466fac22a0d73c57b528, type: 3}
+  m_Name: Sin
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2248, y: 648}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 7406087342556408512}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -4562327768190166481}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 7406087342556408512}
+      _typeQualifiedName: NoiseUltra.Nodes.NodeBase, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _previewImage:
+    showPreviewImage: 1
+    bounds:
+      min: 0.0669871
+      max: 0.93301284
+    size: 1024
+    sourceTexture: {fileID: 0}
+  output: {fileID: 0}
+  input: {fileID: 0}
+  strenght: 5
+--- !u!114 &8278843005408150973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -488, y: -440}
+  ports:
+    keys: []
+    values: []
+  commentBox: 'You can use various tools to modify and craft the noise to your liking 
+    depeding on the use case you want.
+
+    These nodes have an input  and output.
+
+
+    Here
+    are some examples:'
