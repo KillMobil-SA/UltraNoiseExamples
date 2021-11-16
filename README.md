@@ -1,60 +1,67 @@
-# LiquidCity
+# UltraNoise
 
-# 1 Introduction 
+## What is Ultra Noise 
 
-Why we made this? -> Initially made to speed up game jams.
-When we made this? -> Earlier version were made pre game jams. Link some games we made with it.
-Where to use this? -> Projects that are looking for procedural generation.
+UltraNoise is a Node base Noise processing tool for the Unity editor. Unlike other noise tools 
+where the noise output is stored in a texture, UltraNoise contains all the logic within and allows you to sample any coordinate in any dimension.
 
-# 2 Tools
+UltraNoise also allows you to have multiple pathways deriving from the original source and can be used separately. 
 
-### Terrain Generation Tool
 
-| Sample 1 | Sample 2 |
+| | |
 |------------|-------------|
-|<img width="382" height="210" src="/docs/test.png">|<img width="382" height="210" src="/docs/test.png">|
-|Sample 3|Sample 4|
-|<img width="382" height="210" src="/docs/test.png">|<img width="382" height="210" src="/docs/test.png">|
-|Sample 5|Sample 6|
-|<img width="382" height="210" src="/docs/test.png">|<img width="382" height="210" src="/docs/test.png">|
-    
-    
-<details> 
-    <summary> How to achieve such examples, description of the process of creating them </summary>
-</details>
-<details> 
-    <summary> Known issues and improvements </summary>
-</details>
-
-### Terrain Paint Tool
-<details> 
-    <summary> Photos of what can you achieve using it </summary>
-</details>
-<details> 
-    <summary> How to achieve such examples, description of the process of creating them </summary>
-</details>
-<details> 
-    <summary> Known issues and improvements </summary>
-</details>
-
-### Terrain Placement Tool
-<details> 
-    <summary> Photos of what can you achieve using it </summary>
-</details>
-<details> 
-    <summary> How to achieve such examples, description of the process of creating them </summary>
-</details>
-<details> 
-    <summary> Known issues and improvements </summary>
-</details>
-
-# 3 License MIT, be happy people
+|<img width="300" height="250" src="https://github.com/KillMobil-SA/UltraNoiseExamples/blob/main/ReadmeImages/Sample1.png">|<img width="300" height="250" src="https://github.com/KillMobil-SA/UltraNoiseExamples/blob/main/ReadmeImages/Sample2.png">|
+|<img width="300" height="250" src="https://github.com/KillMobil-SA/UltraNoiseExamples/blob/main/ReadmeImages/Sample3.png">|<img width="300" height="250" src="https://github.com/KillMobil-SA/UltraNoiseExamples/blob/main/ReadmeImages/Sample4.png">|
 
 
-# Helper: https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
-References:
+## Who and What?
 
-Odin:
-NodeMaster:
-Thanks to:
+Ultra noise is a tool that has been in the works for quite some time and has manifested many times, but now we believe it has reached its final Form. Since our work has been based on the work of others we decide to make the tool opens source and share it with the community.
+
+This project is a side project… But I hope that we'll be able to continue to ship new features and support it to the best of our abilities.
+
+With respects
+### [Sotiris](https://www.killmobil.com) and [Ycaro](https://github.com/ycarowr)
+
+
+## Under the Hood
+
+WARNING!!
+The tool uses Odin Inspector… A Lot. 
+Until now our main goal was to provide a tool that works and is optimized and we did not want to waste time fighting with the unity editor.
+So for the time being in order to use the tool you would have to get the Odin Inspector.
+We have considered removing it but that's not in the plans yet.
+
+
+UltraNoise’s power also surges from the following awesome free frameworks and Plugins:
+
+* [xNode](https://github.com/Siccity/xNode)
+* [Procedural Noise](https://github.com/Scrawk/Procedural-Noise/)
+* [OdinInspector](https://odininspector.com/)
+
+
+
+## Features
+
+| 27 Nodes | Terrain Forger |
+|------------|-------------|
+|<img width="300" height="250" src="https://github.com/KillMobil-SA/UltraNoiseExamples/blob/main/ReadmeImages/Nodes.png">| <img width="300" height="250" src="https://github.com/KillMobil-SA/UltraNoiseExamples/blob/main/ReadmeImages/Terrain.png">|
+|Placement Tool| Easy Code Sample |
+|<img width="300" height="250" src="https://github.com/KillMobil-SA/UltraNoiseExamples/blob/main/ReadmeImages/PlacementTool.png">|<img width="300" height="250" src="https://github.com/KillMobil-SA/UltraNoiseExamples/blob/main/ReadmeImages/CodeSample.png">|
+
+
+
+## How to Use UltraNoise
+1. Add Editor Coroutines in your Package Manager
+2. Add Odin Inspector
+3. Get the Ultra Noise Source From (https://github.com/KillMobil-SA/UltraNoiseNodeGraph)
+4. You are Ready to GO!
+
+
+## How to learn Ultra Noise
+The Best way to get started with UltraNoise is to download the Example project we have prepared From https://github.com/KillMobil-SA/UltraNoiseExamples
+
+The project contains graphs with comment and completed scenes
+As an extra Treat it contain a great selection of Shaders from the wizards himself mister [Harry Alisavakis](https://twitter.com/harryalisavakis)
+
