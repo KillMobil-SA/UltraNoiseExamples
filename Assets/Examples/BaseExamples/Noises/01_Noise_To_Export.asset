@@ -88,10 +88,10 @@ MonoBehaviour:
   ports:
     keys: []
     values: []
-  commentBox: "Seed: Set Varioation of the noise.\n\nNoise Type: The Type of Noise
-    the generator will produce.\n\nFrequency: Define the Range of the noise.\n\nAmplitude:
+  commentBox: "\u200B\u200BSeed: Set Variation of the noise.\n\nNoise Type: The Type
+    of Noise the generator will produce.\n\nFrequency: Define the Range of the noise.\n\nAmplitude:
     the strength of the noise (Usually se to 1) \n\nOctaves: Amount of details in
-    the noise\n\nOffset: Move the noise center"
+    the noise\n\nOffset: Move the noise center\n"
 --- !u!114 &-1390588663812089204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,8 +180,9 @@ MonoBehaviour:
     keys: []
     values: []
   commentBox: "Hello Welcome to Ultra Noise's Node Editor\n\nYou can access the Node
-    Menu with left click.\n\nAll Nodes have a preview area that you can toglle on/off.
-    \n\nUsually the noise updates automaticly but if not tou can draw it manually."
+    Menu with a left click.\n\nAll Nodes have a preview area that you can toggle
+    on/off. \n\nUsually the noise updates automatically but if not you can draw it
+    manually.\n"
 --- !u!114 &5665300968901744571
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Curve
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 696, y: 8}
+  position: {x: -136, y: 104}
   ports:
     keys:
     - input
@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Name: Comment Box
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1112, y: -232}
+  position: {x: -1944, y: -136}
   ports:
     keys: []
     values: []
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: Clamp
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 600, y: 2392}
+  position: {x: -232, y: 2488}
   ports:
     keys:
     - input
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Name: Comment Box
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 360, y: 2248}
+  position: {x: -472, y: 2344}
   ports:
     keys: []
     values: []
@@ -184,15 +184,17 @@ MonoBehaviour:
   m_Name: Comment Box
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 136, y: 8}
+  position: {x: 424, y: 168}
   ports:
     keys: []
     values: []
-  commentBox: 'To apply an noise output on a terrain Use The Terrain Shaper Component.
+  commentBox: 'To apply a noise output on a terrain Use The Terrain Shaper Component.
 
 
     The
-    component uses the export node as a input.'
+    component uses the export node as an input
+
+'
 --- !u!114 &-3088915341427255312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,7 +208,7 @@ MonoBehaviour:
   m_Name: Comment Box
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 312, y: 792}
+  position: {x: -520, y: 888}
   ports:
     keys: []
     values: []
@@ -214,12 +216,14 @@ MonoBehaviour:
 
 
     Use a Paint
-    Layer to define a terrain brush and its input.
+    Layer Node to define a terrain brush and its input.
 
 
 
-    First layer typically is
-    a full cote  that why we use the white generator to pain the whole tarrain'
+    First layer typically
+    is a full coat  that why we use the white generator to pain the whole terrain
+
+'
 --- !u!114 &-2888930518323439484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,7 +237,7 @@ MonoBehaviour:
   m_Name: GreenLighter
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1016, y: 1592}
+  position: {x: 184, y: 1688}
   ports:
     keys:
     - input
@@ -312,7 +316,7 @@ MonoBehaviour:
   m_Name: Coupler
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -376, y: 312}
+  position: {x: -1208, y: 408}
   ports:
     keys:
     - input
@@ -370,7 +374,7 @@ MonoBehaviour:
   m_Name: White
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 632, y: 3400}
+  position: {x: -200, y: 3496}
   ports:
     keys:
     - output
@@ -408,7 +412,7 @@ MonoBehaviour:
   m_Name: Clamp
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 360, y: 24}
+  position: {x: -472, y: 120}
   ports:
     keys:
     - input
@@ -462,7 +466,7 @@ MonoBehaviour:
   m_Name: BE_05Terrain
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1064, y: -24}
+  position: {x: 616, y: 200}
   ports:
     keys:
     - input
@@ -512,7 +516,7 @@ MonoBehaviour:
   m_Name: Comment Box
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 56, y: 1272}
+  position: {x: -776, y: 1368}
   ports:
     keys: []
     values: []
@@ -531,7 +535,7 @@ MonoBehaviour:
   m_Name: BE_DarkBrown
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1016, y: 3064}
+  position: {x: 184, y: 3160}
   ports:
     keys:
     - input
@@ -657,7 +661,7 @@ MonoBehaviour:
   m_Name: White
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 600, y: 968}
+  position: {x: -232, y: 1064}
   ports:
     keys:
     - output
@@ -695,7 +699,7 @@ MonoBehaviour:
   m_Name: LightGrey
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1016, y: 2136}
+  position: {x: 184, y: 2232}
   ports:
     keys:
     - input
@@ -774,7 +778,7 @@ MonoBehaviour:
   m_Name: BE_05_Paint
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1592, y: 1736}
+  position: {x: 760, y: 1832}
   ports:
     keys:
     - input
@@ -842,17 +846,19 @@ MonoBehaviour:
   m_Name: Comment Box
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -344, y: 472}
+  position: {x: -1176, y: 568}
   ports:
     keys: []
     values: []
-  commentBox: 'As you can see the noise signal get used across many other nodes, 
-    it can be usfull to use the Coupler Node as a intermediate node in case you would
-    like to change the source.
+  commentBox: 'As you can see the noise signal gets used across many other nodes, 
+    it can be useful to use the Coupler Node as an intermediate node in case you
+    would like to change the source.
 
 
-    This way you avoid having to connect to all
-    other nodes'
+    This way you avoid having to connect to
+    all other nodes
+
+'
 --- !u!114 &2835693253661788776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -866,7 +872,7 @@ MonoBehaviour:
   m_Name: Clamp
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 600, y: 1848}
+  position: {x: -232, y: 1944}
   ports:
     keys:
     - input
@@ -920,7 +926,7 @@ MonoBehaviour:
   m_Name: Node Generator
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 280, y: 1256}
+  position: {x: -552, y: 1352}
   ports:
     keys:
     - output
@@ -966,7 +972,7 @@ MonoBehaviour:
   m_Name: Comment Box
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 792, y: 3048}
+  position: {x: -40, y: 3144}
   ports:
     keys: []
     values: []
@@ -997,7 +1003,7 @@ MonoBehaviour:
   m_Name: Green
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1016, y: 952}
+  position: {x: 184, y: 1048}
   ports:
     keys:
     - input
@@ -1076,7 +1082,7 @@ MonoBehaviour:
   m_Name: Node Generator
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -856, y: -8}
+  position: {x: -1688, y: 88}
   ports:
     keys:
     - output
@@ -1122,7 +1128,7 @@ MonoBehaviour:
   m_Name: Clamp
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 600, y: 1272}
+  position: {x: -232, y: 1368}
   ports:
     keys:
     - input
@@ -1176,7 +1182,7 @@ MonoBehaviour:
   m_Name: LightBlue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1032, y: 2696}
+  position: {x: 200, y: 2792}
   ports:
     keys:
     - input
