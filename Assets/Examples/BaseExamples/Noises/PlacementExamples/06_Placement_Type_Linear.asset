@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 573d95cd014b4f238fa3e902a1303a8c, type: 3}
-  m_Name: 06_Placement_Items
+  m_Name: 06_Placement_Type_Linear
   m_EditorClassIdentifier: 
-  exportNode: {fileID: 0}
+  exportNode: {fileID: 7452451999142070469, guid: f7daa043ee578477882ea9aa7f15d9be, type: 2}
   scale:
     placementValueRange:
       axisType: 0
-      rangeType: 0
-      minRange: 0
-      range: 0
+      rangeType: 1
+      minRange: 1
+      range: 1
       minRangeV3: {x: 0, y: 0, z: 0}
       rangeV3: {x: 0, y: 0, z: 0}
       roundAmount: 0
@@ -27,21 +27,21 @@ MonoBehaviour:
     placementRandomizedRange:
       axisType: 0
       rangeType: 0
-      minRange: 0
+      minRange: -0
       range: 0
       minRangeV3: {x: 0, y: 0, z: 0}
       rangeV3: {x: 0, y: 0, z: 0}
       roundAmount: 0
       useExternalNoise: 0
       externalSource: {fileID: 0}
-      seed: 0
+      seed: 7474
       usePosAsRandomSeed: 0
-    size: 1
+    size: 15
   rotation:
     placementValueRange:
       axisType: 0
       rangeType: 0
-      minRange: 0
+      minRange: -0
       range: 0
       minRangeV3: {x: 0, y: 0, z: 0}
       rangeV3: {x: 0, y: 0, z: 0}
@@ -51,20 +51,20 @@ MonoBehaviour:
     placementRandomizedRange:
       axisType: 0
       rangeType: 0
-      minRange: 0
+      minRange: -0
       range: 0
       minRangeV3: {x: 0, y: 0, z: 0}
       rangeV3: {x: 0, y: 0, z: 0}
       roundAmount: 0
       useExternalNoise: 0
       externalSource: {fileID: 0}
-      seed: 0
+      seed: 1798
       usePosAsRandomSeed: 0
   position:
     placementValueRange:
       axisType: 0
       rangeType: 0
-      minRange: 0
+      minRange: -0
       range: 0
       minRangeV3: {x: 0, y: 0, z: 0}
       rangeV3: {x: 0, y: 0, z: 0}
@@ -74,14 +74,14 @@ MonoBehaviour:
     placementRandomizedRange:
       axisType: 0
       rangeType: 0
-      minRange: 0
+      minRange: -0
       range: 0
       minRangeV3: {x: 0, y: 0, z: 0}
       rangeV3: {x: 0, y: 0, z: 0}
       roundAmount: 0
       useExternalNoise: 0
       externalSource: {fileID: 0}
-      seed: 0
+      seed: 4426
       usePosAsRandomSeed: 0
     heightPosType: 1
     rayCastHeightPos:
@@ -91,6 +91,10 @@ MonoBehaviour:
         m_Bits: 0
       showDebug: 0
   livePreviewColor: {r: 0, g: 1, b: 0, a: 1}
-  livePreviewSizeMultiplier: 1
+  livePreviewSizeMultiplier: 4
   placementObjectType: 0
-  items: []
+  items:
+  - {fileID: 7681917114717240719, guid: f25658e242a4d3247b41c47ce25aaf52, type: 3}
+  - {fileID: 8669157999639974523, guid: dbd41c10ca7eb4548b1adb98fac21775, type: 3}
+  - {fileID: 6860555071984432517, guid: c7701adf49bed7e4f8d92ff0833c7bf9, type: 3}
+  - {fileID: 7956271063381666251, guid: 0b632e153608e2940b1e87a06a925114, type: 3}
