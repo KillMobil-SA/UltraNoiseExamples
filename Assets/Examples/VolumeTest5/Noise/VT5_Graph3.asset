@@ -44,14 +44,54 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   _previewImage:
-    showPreviewImage: 0
+    showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0.17955184
+      max: 1
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
   input: {fileID: 0}
+--- !u!114 &-6205777551178602416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 344, y: 1928}
+  ports:
+    keys: []
+    values: []
+  commentBox: Here we are creating an output to be used for the outerwall of the
+    cave.
+--- !u!114 &-6140184309874244965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1768, y: -696}
+  ports:
+    keys: []
+    values: []
+  commentBox: "Granted this scene  is not a great optimization example. \n\nIts more
+    of an demo on Using the Noise in a Third dimention. \n\nFor this Example we 
+    to created a cave with a interesting work formation and an item of interest in
+    the Center.\n\n"
 --- !u!114 &-5526954346020840197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,7 +105,7 @@ MonoBehaviour:
   m_Name: Sub
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 472, y: 824}
+  position: {x: 712, y: 824}
   ports:
     keys:
     - inputA
@@ -109,10 +149,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   _previewImage:
-    showPreviewImage: 0
+    showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0
+      max: 0.45016187
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
@@ -133,7 +173,7 @@ MonoBehaviour:
   m_Name: Generator
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1144, y: -1464}
+  position: {x: -392, y: -1272}
   ports:
     keys:
     - output
@@ -153,9 +193,9 @@ MonoBehaviour:
   _previewImage:
     showPreviewImage: 1
     bounds:
-      min: 0.07876581
-      max: 0.4614723
-    size: 512
+      min: 0.0387041
+      max: 0.46127695
+    size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
   attributes:
@@ -225,7 +265,7 @@ MonoBehaviour:
   m_Name: VT5.3_wall
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 504, y: 1944}
+  position: {x: 600, y: 2232}
   ports:
     keys:
     - input
@@ -262,6 +302,26 @@ MonoBehaviour:
   output: {fileID: 0}
   input: {fileID: 0}
   nodeTitle: VT5.3_wall
+--- !u!114 &-2505132972563017956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 392, y: 760}
+  ports:
+    keys: []
+    values: []
+  commentBox: "On the edges of the rocks we want to add some crytals. \n\nSo we clamp
+    and a curve to output of the original noise.\n\nAnd then used some other noises
+    to reduce and randomize the output of the Crystla noise."
 --- !u!114 &-2096786991384624665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,7 +335,7 @@ MonoBehaviour:
   m_Name: Clamp
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -376, y: 1288}
+  position: {x: -408, y: 1368}
   ports:
     keys:
     - input
@@ -306,10 +366,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   _previewImage:
-    showPreviewImage: 0
+    showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0
+      max: 0.82044816
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
@@ -329,7 +389,7 @@ MonoBehaviour:
   m_Name: VT5_Terrain
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -536, y: -1480}
+  position: {x: 184, y: -968}
   ports:
     keys:
     - input
@@ -410,10 +470,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   _previewImage:
-    showPreviewImage: 0
+    showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0
+      max: 1
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
@@ -516,10 +576,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   _previewImage:
-    showPreviewImage: 0
+    showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0
+      max: 0.99777704
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
@@ -570,7 +630,7 @@ MonoBehaviour:
   m_Name: Sub
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -968, y: -232}
+  position: {x: -920, y: -232}
   ports:
     keys:
     - inputA
@@ -617,10 +677,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   _previewImage:
-    showPreviewImage: 0
+    showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0
+      max: 0.43886518
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
@@ -662,6 +722,10 @@ MonoBehaviour:
   - {fileID: -2695009630871779035}
   - {fileID: -3618583921466347124}
   - {fileID: -1804992508452519674}
+  - {fileID: -6140184309874244965}
+  - {fileID: 6030135898892475899}
+  - {fileID: -2505132972563017956}
+  - {fileID: -6205777551178602416}
   globalZoom: 1024
 --- !u!114 &2063882859817655019
 MonoBehaviour:
@@ -707,10 +771,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   _previewImage:
-    showPreviewImage: 0
+    showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0
+      max: 1
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
@@ -730,7 +794,7 @@ MonoBehaviour:
   m_Name: VT5.3_crystal(blue)
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 856, y: 200}
+  position: {x: 1096, y: 200}
   ports:
     keys:
     - input
@@ -780,7 +844,7 @@ MonoBehaviour:
   m_Name: Circle
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -440, y: 1928}
+  position: {x: -408, y: 1928}
   ports:
     keys:
     - output
@@ -798,10 +862,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   _previewImage:
-    showPreviewImage: 0
+    showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0
+      max: 0.9991601
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
@@ -845,7 +909,7 @@ MonoBehaviour:
   m_Name: VT5.3_crystal(red)
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 872, y: 1128}
+  position: {x: 1112, y: 1128}
   ports:
     keys:
     - input
@@ -926,10 +990,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   _previewImage:
-    showPreviewImage: 0
+    showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0
+      max: 0.99606687
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
@@ -971,7 +1035,7 @@ MonoBehaviour:
   m_Name: Generator
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -776, y: 888}
+  position: {x: -808, y: 840}
   ports:
     keys:
     - output
@@ -992,10 +1056,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   _previewImage:
-    showPreviewImage: 0
+    showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0.23556912
+      max: 0.74613446
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
@@ -1020,7 +1084,7 @@ MonoBehaviour:
   m_Name: Clamp
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -392, y: -360}
+  position: {x: -408, y: -360}
   ports:
     keys:
     - input
@@ -1051,16 +1115,35 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   _previewImage:
-    showPreviewImage: 0
+    showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0
+      max: 1
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
   input: {fileID: 0}
   limit: {x: 0.3, y: 0.4}
   smoothClampValue: 1
+--- !u!114 &6030135898892475899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1128aa384c944b1c8d4779bc6188c82, type: 3}
+  m_Name: Comment Box
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1112, y: -232}
+  ports:
+    keys: []
+    values: []
+  commentBox: To make the area for the center of the cave we used a Cirlce Generator
+    that we Subtracked from the Main Noise Generator
 --- !u!114 &6597808462429308473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1105,10 +1188,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   _previewImage:
-    showPreviewImage: 0
+    showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0.3389228
+      max: 1
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
@@ -1193,7 +1276,7 @@ MonoBehaviour:
   m_Name: Sub
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 456, y: 200}
+  position: {x: 696, y: 200}
   ports:
     keys:
     - inputA
@@ -1237,10 +1320,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   _previewImage:
-    showPreviewImage: 0
+    showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0
+      max: 0.45639437
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
@@ -1261,7 +1344,7 @@ MonoBehaviour:
   m_Name: VT5.3_Rocks
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -24, y: -360}
+  position: {x: -40, y: -56}
   ports:
     keys:
     - input
