@@ -153,12 +153,9 @@ MonoBehaviour:
   commentBox: 'Operations allow you to combine various input signals.
 
 
-    This
-    Nodes can be usefull to achive a whole new visual results or to be used as tools
-    (etc Masking noises and limiting them in general).
-
-
-'
+    These
+    Nodes can be useful to achieve a whole new visual result or to be used as tools
+    (etc Masking noises and limiting them in general).'
 --- !u!114 &-7044730548148320838
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7353,20 +7353,16 @@ MonoBehaviour:
     list of the items to be generated.
 
 
-    isActive: Enable/Disable the genereation
-    of this object
+    isActive: Enable/Disable the generation
+    of this object.
 
 
-    Spacing: degines the density of the generation (smaller
-    number means more objects)
+    Spacing: defines the density of the generation (smaller
+    number means more objects).
 
 
-    Placement Settings: Is a Scriptable object that
-    conains most of the data need for the object placement.
-
-
-
-'
+    Placement Settings: Is a Scriptable object
+    that contains most of the data needed for the object placement.'
 --- !u!222 &280563033
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16607,34 +16603,29 @@ MonoBehaviour:
 
 
     With
-    the Export node field you can select the noise this Placement settigns will follow.
+    the Export node field you can select the noise this Placement settings will follow.
 
 
     In
     the end of the SO''s you can find the Gameobject Settings.
 
-    Here youcan define
-    a list of objects that are going to be used for this placement.
+    Here you can
+    define a list of objects that are going to be used for this placement.
 
 
-    The placent
-    type define how the object get selected:
+    The
+    placement type defines how the objects get selected:
 
-    - Linear:  the placement will circulate
-    throught the list
+    - Linear:  the placement
+    will circulate through the list
 
-    - Value: will use the niose value to select an object
+    - Value: will use the noise value to select
+    an object
 
-    0
-    mean it will be the first object while 1 is the last
+    0 mean it will be the first object while 1 is the last.
 
-    - Random: means the
-    the selection happens completle random
-
-
-
-
-'
+    -
+    Random: means the the selection happens completely random.'
 --- !u!222 &643921630
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23317,22 +23308,17 @@ MonoBehaviour:
   m_Text: 'In Value range:
 
 
-    this option give you the ability to use an alternative
-    Noise source from the one that its define in the start of the SO.
+    This option gives you the ability to use an alternative
+    Noise source from the one that is defined in the start of the SO.
 
 
     This
-    can be usefull for cases that you would like use different noises for diferent
-    tranform properties.
+    can be useful for cases where you would like to use different noises for different
+    transform properties.
 
 
-    For example you may want to use default source for
-    Scaling and But diferent for the positioning.
-
-
-
-
-'
+    For example you may want to use the default source
+    for Scaling and But different for the positioning.'
 --- !u!222 &887741875
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23488,18 +23474,16 @@ MonoBehaviour:
   m_Text: 'In Random range:
 
 
-    This option only get used only if you have selected
-    to use potitional data as Seed.
+    This option only gets used only if you have selected
+    to use positional data as Seed.
 
 
     And in this case the tool will use a value
     from the provided Noise as a seed.
 
 
-    This is usefull when you want to have
-    random values in specific ranges of noise.
-
-'
+    This is useful when you want to have
+    random values in specific ranges of noise.'
 --- !u!222 &903598785
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32824,9 +32808,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '
-
-    The placent type defines how the object get selected to be placed:
+  m_Text: 'The placent type defines how the object get selected to be placed:
 
 
     -
@@ -45343,11 +45325,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "In More Depth\n\nAxis Type:\nHere you can select if you would like affect
-    the axis in unified manner or  each Axis Seperatly.\nUnified = All\nSerated =
-    X,Y,Z seperatly\n\nRange Type:\nHere you can define the range of the value:\nMinusPlus
-    = return values betwen (-inputValue , inputValue) \nMinMax = A specific Range
-    of Values\n\nRound Range:\nUse this if you want to MathF.round the value \n\n\n\n\n"
+  m_Text: "In More Depth\n\nAxis Type:\nHere you can select if you would like to
+    affect the axis in a unified manner or  each Axis Separately.\nUnified = All\nSeparate 
+    = X,Y,Z separately\n\nRange Type:\nHere you can define the range of the value:\nMinusPlus
+    = return values between (-inputValue , inputValue) \nMinMax = A specific Range
+    of Values\n\nRound Range:\nUse this if you want to MathF.round the value "
 --- !u!222 &1612138582
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -49740,10 +49722,10 @@ MonoBehaviour:
     the positioning type and uses Raycasting to calculate the Y axis position instead
     of following the Predesignated grid.\n\nIn the Group Position set the Height
     calculation setting to Raycast instead of Grid. \n\nIn the new available option
-    you can define the raycast Layermark and set a tag for further attundment.\n\n\n!!!
+    you can define the raycast Layer Mask and set a tag for further attunement.\n\n!!!
     When using the raycast positioning make sure that the GameObject with the placement
-    collider  is not in the Layermask of the Hieght Calculation\n(We suggest to use
-    the ignore collider layer).\n\n"
+    collider  is not in the Layermask of the Height Calculation\n(We suggest using
+    the ignore collider layer)."
 --- !u!222 &1753369781
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -61833,19 +61815,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The Placement Tool uses noise data to instaniate GameObjects and place
-    them into the scene.
-
-
-    How to Use the placement tool
-
-    1) Create a Gameobject
-
-    2)
-    Add A box Collider (Defines the area of the generation)
-
-    3) Add the Placement
-    tool MonoBehaviour '
+  m_Text: "The Placement Tool uses noise data to instantiate GameObjects and place
+    them into the scene.\n\nHow to Use the placement tool\n1) Create a Gameobject\n2)
+    Add A box Collider (Defines the area of the generation)\n3) Add the Placement
+    tool MonoBehaviour \n"
 --- !u!222 &2139207340
 CanvasRenderer:
   m_ObjectHideFlags: 0

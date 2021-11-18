@@ -684,11 +684,13 @@ MonoBehaviour:
   ports:
     keys: []
     values: []
-  commentBox: 'You can use various tools to modify and craft the noise to your liking 
-    depeding on the use case you want.
+  commentBox: 'You can use various tools to modify and craft the noise to your liking
+    depending on the use case you want.
 
     These nodes have an input  and output.
 
 
     Here
-    are some examples:'
+    are some examples:
+
+'

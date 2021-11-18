@@ -30,8 +30,8 @@ MonoBehaviour:
   _previewImage:
     showPreviewImage: 1
     bounds:
-      min: 0.22712478
-      max: 0.82312775
+      min: 0.13016702
+      max: 0.83430433
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
@@ -60,7 +60,7 @@ MonoBehaviour:
   ports:
     keys: []
     values: []
-  commentBox: 'The Texture node can use data from a texrture.
+  commentBox: 'The Texture node can use data from a texture.
 
     However the Texture
     needs to have the read write option enabled.
@@ -68,7 +68,9 @@ MonoBehaviour:
 
 
     The External node ba load
-    in Noises created i other graphs.'
+    in Noises created in other graphs.
+
+'
 --- !u!114 &-5115465452765417407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,8 +309,8 @@ MonoBehaviour:
   _previewImage:
     showPreviewImage: 1
     bounds:
-      min: 0.44386882
-      max: 0.778863
+      min: 0.031086298
+      max: 0.7321313
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
@@ -365,11 +367,8 @@ MonoBehaviour:
   ports:
     keys: []
     values: []
-  commentBox: 'This Shape Nodes output range from 0-1.
-
-
-    Their cordinates can
-    be adjuste to cover the required space needed. '
+  commentBox: "This Shape Nodes output ranges from 0-1.\n\nTheir coordinates can
+    be adjusted to cover the required space needed. \n"
 --- !u!114 &4063639900070163118
 MonoBehaviour:
   m_ObjectHideFlags: 0
