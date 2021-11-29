@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bce4a70b785853489f7da031988ec4d, type: 3}
-  m_Name: GreenLighter
+  m_Name: BE_GreenLighter
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
   position: {x: 184, y: 1688}
@@ -696,7 +696,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bce4a70b785853489f7da031988ec4d, type: 3}
-  m_Name: LightGrey
+  m_Name: BE_LightGrey
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
   position: {x: 184, y: 2232}
@@ -1000,7 +1000,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bce4a70b785853489f7da031988ec4d, type: 3}
-  m_Name: Green
+  m_Name: BE_Green
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
   position: {x: 184, y: 1048}
@@ -1179,7 +1179,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bce4a70b785853489f7da031988ec4d, type: 3}
-  m_Name: LightBlue
+  m_Name: BE_LightBlue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
   position: {x: 200, y: 2792}

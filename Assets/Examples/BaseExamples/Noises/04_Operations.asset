@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: Curve
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 616, y: 1208}
+  position: {x: 632, y: 1208}
   ports:
     keys:
     - input
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Name: Clamp
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 296, y: -264}
+  position: {x: 312, y: -264}
   ports:
     keys:
     - input
@@ -758,7 +758,7 @@ MonoBehaviour:
   m_Name: Lerp Noise
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1080, y: 744}
+  position: {x: 1032, y: 632}
   ports:
     keys:
     - inputA
@@ -884,7 +884,7 @@ MonoBehaviour:
   m_Name: Clamp
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 328, y: 456}
+  position: {x: 344, y: 456}
   ports:
     keys:
     - input

@@ -142,8 +142,8 @@ MonoBehaviour:
   _previewImage:
     showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0
+      max: 1
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}

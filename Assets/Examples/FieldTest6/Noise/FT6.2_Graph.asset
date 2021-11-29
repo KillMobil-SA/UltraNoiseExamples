@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Clamp
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -648, y: -456}
+  position: {x: -664, y: -696}
   ports:
     keys:
     - input
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_Name: Generator
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -648, y: 136}
+  position: {x: -392, y: 184}
   ports:
     keys:
     - output
@@ -926,7 +926,7 @@ MonoBehaviour:
   m_Name: Coupler
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -264, y: -152}
+  position: {x: -280, y: -488}
   ports:
     keys:
     - input
@@ -1544,8 +1544,8 @@ MonoBehaviour:
   _previewImage:
     showPreviewImage: 0
     bounds:
-      min: 0
-      max: 0.57809466
+      min: 1
+      max: 0
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
@@ -1600,10 +1600,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   _previewImage:
-    showPreviewImage: 0
+    showPreviewImage: 1
     bounds:
-      min: 1
-      max: 0
+      min: 0
+      max: 1
     size: 1024
     sourceTexture: {fileID: 0}
   output: {fileID: 0}
