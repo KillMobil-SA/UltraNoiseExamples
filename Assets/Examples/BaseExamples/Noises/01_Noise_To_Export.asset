@@ -58,10 +58,9 @@ MonoBehaviour:
   _previewImage:
     showPreviewImage: 1
     bounds:
-      min: 0.031086298
-      max: 0.7321313
+      min: 0.018545425
+      max: 0.5664674
     size: 1024
-    sourceTexture: {fileID: 0}
   output: {fileID: 0}
   attributes:
     seed: 713920
@@ -135,10 +134,9 @@ MonoBehaviour:
   _previewImage:
     showPreviewImage: 1
     bounds:
-      min: 0.031086298
-      max: 0.7321313
+      min: 0.018545425
+      max: 0.5664674
     size: 1024
-    sourceTexture: {fileID: 0}
   output: {fileID: 0}
   input: {fileID: 0}
   nodeTitle: BE_BasicExport
